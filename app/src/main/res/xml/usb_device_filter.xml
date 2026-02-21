@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    MT7921AU USB IDs used by Alfa AWUS036AXM
+    VID 0x0e8d = MediaTek Inc.
+    PID 0x7961 = MT7921AU (AX1800)
+    Add more PIDs here if Alfa uses a rebadged variant.
+-->
+<resources>
+    <usb-device vendor-id="3725"  product-id="31073" />  <!-- 0x0e8d / 0x7961 -->
+    <usb-device vendor-id="3725"  product-id="31074" />  <!-- 0x0e8d / 0x7962 some FW variants -->
+</resources>
