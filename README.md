@@ -1,6 +1,6 @@
 Android WiFi Monitor
 
-A minimalist, open-source tool enabling AWUS036AXM (MT7921AU) support on Android devices for WiFi monitoring and deauthentication—no root or ADB (Shizuku) required.
+A minimalist, open-source tool enabling AWUS036AXM (MT7921AU) support on Android devices for WiFi monitoring. No root or Shizuku (ADB) required.
 
 This project utilizes a custom userspace implementation of libusb and linux-firmware to bypass standard Android kernel-level hardware restrictions.
 
@@ -13,9 +13,7 @@ Hardware Support: Specifically optimized for the AWUS036AXM chipset via USB-OTG.
 
 Frequency Range: Full support for 2.4GHz, 5GHz, and 6GHz (Wi-Fi 6E) bands.
 
-Rootless Operation: Functions entirely in userspace; does not require rooting your device or using ADB workarounds.
-
-Development: "Vibecoded" with the assistance of Claude 3.7 Sonnet & Gemini 3.1 Pro (2026).
+Rootless Operation: Functions entirely in userspace; does not require rooting your device or using Shizuku (ADB) workarounds.
 
 
 Prerequisites
